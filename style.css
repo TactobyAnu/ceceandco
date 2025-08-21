@@ -28,12 +28,13 @@ font-weight: 700;
 overflow: hidden;
 
 }
+
 .section1{
 	width: 100%;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	/*height: 80vh;*/
+	height-min: 100vh;
 	padding-top:10px;
 	background: url(unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -48,6 +49,7 @@ overflow: hidden;
 	margin: 70px;
 	padding: 10px ;
 }
+
 .section2{
 	padding-bottom: 30px;
 	margin: 60px;
