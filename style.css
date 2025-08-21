@@ -1,0 +1,58 @@
+body,html{
+	height: 100%;
+	width: 100%;
+  font-family: "Poiret One", sans-serif;
+
+}
+
+
+h1{
+	text-transform: uppercase;
+	background-color:black;
+	display: inline-block;
+	opacity: 70%;
+	border-radius: 30px;
+	
+	color: #60ac3b;
+	/*color: #2d2d2d;*/
+	font-size: 4rem;
+}
+
+.navbar, .welcome {
+	margin: 10px;
+	padding: 20px 5px;
+}
+.navbar{
+	border-radius: 300px;
+}
+.section1{
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/*height: 80vh;*/
+	padding-top:10px;
+	background: url(unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.card{
+	height: px;
+	margin: 70px;
+	padding: 10px ;
+}
+.section2{
+	padding-bottom: 30px;
+	margin: 60px;
+	
+}
+
+.platters{
+	border-radius: 25%;
+	opacity: 80%;
+	
+}
