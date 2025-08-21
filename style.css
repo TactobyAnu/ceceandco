@@ -24,7 +24,7 @@ h1{
 }
 .navbar{
 font-weight: 700;
-	border-radius: 300px;
+	border-radius: 50px;
 overflow: hidden;
 
 }
@@ -34,7 +34,7 @@ overflow: hidden;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	height-min: 100vh;
+	*/height-min: 100vh;*/
 	padding-top:10px;
 	background: url(unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
