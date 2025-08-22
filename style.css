@@ -6,36 +6,39 @@ body,html{
 }
 
 
-h1{
+.welcome{
+	margin-top: 20px 20px;
+	width: 100%;
+	padding: 10px;
+	overflow: hidden;
+	box-sizing: border-box;
 	text-transform: uppercase;
 	background-color:black;
 	display: inline-block;
 	opacity: 70%;
-	border-radius: 30px;
-	
+	border-radius: 40px;
+	max-width: 340px;
+	min-width: 340px;
 	color: #60ac3b;
 	/*color: #2d2d2d;*/
-	font-size: 4rem;
+	font-size: 1.5rem;
 }
 
-.navbar, .welcome {
-	margin: 10px;
-	padding: 20px 5px;
-}
-.navbar{
-font-weight: 700;
-	border-radius: 50px;
-overflow: hidden;
-
+.navbar {
+	display: inline-block;
+	border-radius: 40px;
+	padding: 10px 10px;
+	box-sizing: border-box;
 }
 
+	
 .section1{
+	overflow: hidden;
 	width: 100%;
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	/*height-min: 100vh;*/
+	/*height: 80vh;*/
 	padding-top:10px;
+	margin-bottom: 25px;
 	background: url(unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -43,16 +46,23 @@ overflow: hidden;
   background-size: cover;
 }
 
-
+.Appetizers{
+	display: inline-block;
+	color: #74896f;
+	 border-bottom: 5px solid #60ac3b;
+	 border-right: 5px solid #60ac3b ;
+	box-shadow: 4px 4px 5px #60ac3b;
+	
+	margin-bottom: 35px;
+}
 .card{
 	height: px;
-	margin: 70px;
-	padding: 10px ;
+	margin: 40px;
+	padding:  10px ;
 }
-
 .section2{
 	padding-bottom: 30px;
-	margin: 60px;
+	margin: center;
 	
 }
 
