@@ -5,8 +5,15 @@ body,html{
 
 }
 
-
+.logo{
+	border-radius: 30px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 10px;
+	
+}
 .welcome{
+	transform: traslateY(2.0);
 	margin-top: 20px 20px;
 	width: 100%;
 	padding: 10px;
@@ -29,10 +36,11 @@ body,html{
 	border-radius: 40px;
 	padding: 10px 10px;
 	box-sizing: border-box;
+
 }
 
 	
-.section1{
+.section1, .section_event{
 	overflow: hidden;
 	width: 100%;
 	box-sizing: border-box;
@@ -70,4 +78,26 @@ body,html{
 	border-radius: 25%;
 	opacity: 80%;
 	
+}
+
+.section3 {
+
+	padding:  auto;
+	border-width: autopx;
+	/*border-radius: 40px;*/
+	border:  9px solid orange;
+	background-color: orange;
+	margin: 100px auto;
+	max-width: 370px;
+	opacity: 75%;
+	font-size: 1.3rem;
+
+}
+
+.bold{
+	font-size: 1.2rem;
+}
+.info{
+	
+	font-size: 1.3rem;
 }
