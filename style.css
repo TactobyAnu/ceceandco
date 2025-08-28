@@ -10,6 +10,7 @@ body,html{
 	display: inline-block;
 	box-sizing: border-box;
 	padding: 10px;
+ mix-blend-mode: multiply;
 	
 }
 .welcome{
